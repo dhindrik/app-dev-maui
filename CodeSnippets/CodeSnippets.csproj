@@ -1,4 +1,4 @@
-﻿<!--<ProjectSdk-->
+﻿<!--<ProjectSdk>-->
 <Project Sdk="Microsoft.NET.Sdk">
 <!--</ProjectSdk>-->
 	<PropertyGroup>
