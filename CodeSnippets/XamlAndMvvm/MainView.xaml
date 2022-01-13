@@ -8,7 +8,7 @@
 <!--</BindingDataType>-->
     <!--<IntroBindings>-->
     <VerticalStackLayout>
-        <Label Text="{Binding Text, Mode=O}" />
+        <Label Text="{Binding Text, Mode=OneWay}" />
         <Entry Text="{Binding Text, Mode=TwoWay}" />
     </VerticalStackLayout>
     <!--</IntroBindings>-->
