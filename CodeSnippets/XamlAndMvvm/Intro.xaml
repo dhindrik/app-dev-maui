@@ -7,7 +7,7 @@
     <!--<StackIntro>-->
     <VerticalStackLayout>
         <Label Text="Hi!" />
-      <Label Text="This is a .NET MAUI app!" />
+        <Label Text="This is a .NET MAUI app!" />
     </VerticaStackLayout>
     <!--</StackIntro>-->
 </ContentPage>
