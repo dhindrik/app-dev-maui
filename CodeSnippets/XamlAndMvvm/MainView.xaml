@@ -4,9 +4,10 @@
              x:Class="MauiApp1.MainView"
              Title="MainView"
              BackgroundColor="White">
-    <StackLayout>
-        <Label Text="Welcome to .NET MAUI!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-    </StackLayout>
+    <!--<IntroBindings>-->
+    <VerticalStackLayout>
+        <Label Text="{Binding Text, Mode=OneWay}" />
+        <Entry Text="{Binding Text, Mode=TwoWay}" />
+    </VerticalStackLayout>
+    <!--</>IntroBindings>-->
 </ContentPage>
