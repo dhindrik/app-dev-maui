@@ -6,15 +6,15 @@ using Microsoft.Maui.Controls.Xaml;
 
 namespace MauiApp1
 {
-	//<SetBindingContext>
-	public partial class MainView : ContentPage
-	{
-		public MainView()
-		{
-			InitializeComponent();
+    //<SetBindingContext>
+    public partial class MainView : ContentPage
+    {
+        public MainView()
+        {
+            InitializeComponent();
 
-			BindingContext = new MainViewModel();
-		}
-	}
-	//</SetBindingContext>
+            BindingContext = new MainViewModel();
+        }
+    }
+    //</SetBindingContext>
 }
