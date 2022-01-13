@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace CodeSnippets.XamlAndMvvm
+namespace MyApp.ViewModels
 {
     //<IntroViewModel>
 	public class MainViewModel : INotifyPropertyChanged
