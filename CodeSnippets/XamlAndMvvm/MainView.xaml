@@ -9,5 +9,5 @@
         <Label Text="{Binding Text, Mode=OneWay}" />
         <Entry Text="{Binding Text, Mode=TwoWay}" />
     </VerticalStackLayout>
-    <!--</>IntroBindings>-->
+    <!--</IntroBindings>-->
 </ContentPage>
