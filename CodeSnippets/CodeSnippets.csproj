@@ -1,6 +1,6 @@
 ﻿<!--<ProjectSdk-->
 <Project Sdk="Microsoft.NET.Sdk">
-<!--</ProjectSdk-->
+<!--</ProjectSdk>-->
 	<PropertyGroup>
 		<!--<TargetFrameworks>-->
 		<TargetFrameworks>net6.0-android;net6.0-ios;net6.0-maccatalyst</TargetFrameworks>
