@@ -3,9 +3,10 @@ using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.Xaml;
 
-namespace MauiApp1
+//<CodeBehind>
+namespace MyApp
 {
-	public partial class Intro : ContentPage
+	public partial class MainView : ContentPage
 	{
 		public Intro()
 		{
@@ -13,3 +14,4 @@ namespace MauiApp1
 		}
 	}
 }
+//</CodeBehind>
