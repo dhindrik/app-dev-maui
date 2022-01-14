@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Windows.Input;
 
 namespace MyApp.ViewModels
 {
@@ -23,5 +24,26 @@ namespace MyApp.ViewModels
         }
     }
     //</IntroViewModel>
+
+    public class Main2ViewModel
+    {
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        //<CommandIntro>
+        private ICommand save;
+        public ICommand Save
+        {
+            get => save;
+            set
+            {
+                if(save != value)
+                {
+                    save = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Save)));
+                }
+            }
+        }
+        //</CommandIntro>
+    }
 }
 
