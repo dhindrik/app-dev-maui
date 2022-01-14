@@ -31,18 +31,9 @@ namespace MyApp.ViewModels
 
         //<CommandIntro>
         private ICommand save;
-        public ICommand Save
-        {
-            get => save;
-            set
-            {
-                if(save != value)
-                {
-                    save = value;
-                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Save)));
-                }
-            }
-        }
+        public ICommand Save => save ??= new Command(() => {
+            //Do stuff here.
+        });
         //</CommandIntro>
     }
 }
