@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+git push<?xml version="1.0" encoding="utf-8" ?>
 <!--<BindingDataType>-->
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -6,10 +6,15 @@
              x:Class="MyApp.MainView"
              Title="MainView" x:DataType="viewModels:MainViewModel">
 <!--</BindingDataType>-->
+    <VerticalStackLayout>
     <!--<IntroBindings>-->
     <VerticalStackLayout>
         <Label Text="{Binding Text, Mode=OneWay}" />
         <Entry Text="{Binding Text, Mode=TwoWay}" />
     </VerticalStackLayout>
     <!--</IntroBindings>-->
+        <!--<ButtonCommand>-->
+        <Button Text="Save" Command="{Binding Save}" />
+        <!--</ButtonCommand>-->
+    </VerticalStackLayout>
 </ContentPage>
